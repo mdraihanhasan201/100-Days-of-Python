@@ -8,20 +8,20 @@ word_list = ('ant baboon badger bat bear beaver camel cat clam cobra cougar '
 'stork swan tiger toad trout turkey turtle weasel whale wolf '
 'wombat zebra ').split()
 
-stages= ['''
-+---+
+stages= ['''+---+
 | |
 O |
 /|\ |
 / \ |
 |
-=========''']
+=========
+''']
 choosen_word=random.choice(word_list)
 
 display=[]
 for _ in range(len(choosen_word)):
  display+="_"
-print(display)
+ print(display)
 
 
 
@@ -31,27 +31,28 @@ lifes=6
 while not eld_of_games:
 
  guess=input("guess a latter\n").lower()
-if guess in display:
- print(f"you already guessed{guess}")
+ if guess in display:
+  print(f"you already guessed{guess}")
 
-for position in range(len(choosen_word)):
- i=choosen_word[position]
- if i==guess:
-  display[position]=i
-  print(display)
+ for position in range(len(choosen_word)):
+   i=choosen_word[position]
+   if i==guess:
+    display[position]=i
+    print(display)
 
 if guess not in choosen_word:
  print(f"you choosed {guess},thats not in the word")
-lifes=lifes-1
+ lifes=lifes-1
+
 if lifes==0:
   eld_of_games=True
-print("you lose")
+  print("you lose")
 
 
 
 if "_" not in display:
  eld_of_games=True
-print("y0u win!")
+ print("y0u win!")
 
 print(stages[lifes])
 
