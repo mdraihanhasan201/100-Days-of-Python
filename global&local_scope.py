@@ -23,11 +23,18 @@
 
 
 
-gmae_lavel=3
-def name():
-    llist=["raihan","roman","ria","nodi"]
-    if gmae_lavel==3:
-        print(llist[0])
-name()
+# gmae_lavel=3
+# def name():
+#     llist=["raihan","roman","ria","nodi"]
+#     if gmae_lavel==3:
+#         print(llist[0])
+# name()
+#
+
+enimes=2
+def enime_increased():
+    return enimes+1
+new_enimes=enime_increased()
+print(new_enimes)
 
 
