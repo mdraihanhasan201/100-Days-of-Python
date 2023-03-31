@@ -17,7 +17,7 @@ def encript(plan_text,shift_number):
     new_positions=current_positions+shift_number
     new_latter=alphabet[new_positions]
     cyber_text+=new_latter
- print(f"the incoded text is {cyber_text}")
+ print(f"the incoded text is: {cyber_text}")
 
 
 

@@ -1,4 +1,7 @@
 from turtle import Turtle,Screen
+import heroes
+print(heroes.gen())
+
 
 timy_the_turtle=Turtle()
 timy_the_turtle.shape("turtle")
