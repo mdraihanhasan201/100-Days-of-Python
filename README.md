@@ -1,4 +1,4 @@
-# raython with rayhan
+# paython with rayhan
 
 ![logo](https://raw.githubusercontent.com/ni/python-styleguide/main/docs/logo.svg)
 
