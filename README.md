@@ -1,4 +1,4 @@
-# NI Python Style Guide
+# raython with rayhan
 
 ![logo](https://raw.githubusercontent.com/ni/python-styleguide/main/docs/logo.svg)
 
